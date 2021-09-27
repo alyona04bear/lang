@@ -7,7 +7,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="../../static/css/bootstrap.css">
     <link rel="stylesheet" href="../../static/css/reg_view.css">
-    <script src="../../static/js/registraziya.js" defer></script>
+    <script src="../../static/js/reg.js" defer></script>
 </head>
 
 <body>
@@ -18,33 +18,28 @@
             <a href="" class="logging">Вход</a>
         </div>
     </header>
-<!-- первый этап регистрации -->
 
+<div class="picture"></div>
 
-    <main>
-        
-        <!-- <div class="container">
+<main class="container">
+    <section id="start" class="curent">
+        <div class="container">
             <div class="row">
                 <div class="col-1"></div>
                 <div class="col-5">
                     <div id="role" class="d-flex flex-column align-items-center justify-content-center">
                         <h2 class="align-self-start">Кто вы?</h2>
-                        <button id="teacher">Я учитель</button>
-                        <button id="student">Я ученик</button>
+                        <button class="teacher">Я учитель</button>
+                        <button class="student">Я ученик</button>
                         <a href="" class="back">&larr; Назад</a>
                     </div>
                 </div>
             </div>
         </div>
-        <div class="picture">
-        </div> -->
-
-   
-
-
-        <!-- регистрация для учителя -->
+    </section>
         
 
+    <section id="teacher" class="reg right">
         <div class="container">
             <div class="row">
                 <div class="col-1"></div>
@@ -60,14 +55,10 @@
                 </div>
             </div>
         </div>
-        <div class="picture">
-        </div>
-   
+    </section>
 
 
-        <!-- для ученика -->
-
-<!--
+    <section id="student" class="reg right">
         <div class="container">
             <div class="row">
                 <div class="col-1"></div>
@@ -84,13 +75,9 @@
                 </div>
             </div>
         </div>
-        <div class="picture">
-        </div> -->
+    </section>
 
-
-
-        <!-- выбор школы и языка -->
-        <!-- 
+    <section id="choice" class="right">
         <div class="container">
             <div class="row">
                 <div class="col-1"></div>
@@ -114,12 +101,10 @@
                 </div>
             </div>
         </div>
-        <div class="picture">
-        </div>
-
-    -->
-    </main>
-    </footer>
+    </section>
+   
+</main>
+<footer></footer> 
 </body>
 
 </html>
