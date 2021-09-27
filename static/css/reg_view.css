@@ -1,0 +1,111 @@
+header {
+  position: fixed;
+  z-index: 1000;
+  height: 100px;
+  padding: 0 5%;
+  width: 100%;
+  top: 0;
+}
+main {
+  margin-top: 100px;
+}
+a {
+  text-decoration: none;
+  color: rgba(73, 73, 73, 0.89);
+  padding: 10px;
+  font-size: 18px;
+}
+h2 {
+  margin-bottom: 40px;
+}
+button:not(#continue) {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(50, 50, 50, 0.1);
+  padding: 20px 15px;
+  transition: all 0.2s ease-in;
+  position: relative;
+}
+button:hover {
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+#role {
+  height: 80vh;
+}
+#role * {
+  margin-bottom: 20px;
+}
+#role button::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  border: 2px solid black;
+  border-left: none;
+  border-top: none;
+  border-radius: 1px;
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  margin-right: 20px;
+  transform: rotate(-45deg) translateY(-50%);
+}
+.picture {
+  width: 28%;
+  height: 100vh;
+  background-color: antiquewhite;
+  position: absolute;
+  top: 0;
+  right: 0px;
+}
+input {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(50, 50, 50, 0.1);
+  padding: 20px 15px;
+  transition: all 0.2s ease-in;
+  position: relative;
+  font-size: 20px;
+}
+input:hover {
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+select {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: white;
+  box-shadow: 0px 4px 10px rgba(50, 50, 50, 0.1);
+  padding: 20px 15px;
+  transition: all 0.2s ease-in;
+  position: relative;
+  font-size: 20px;
+}
+select:hover {
+  cursor: pointer;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+}
+button#continue {
+  width: 100%;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  background-color: 0px 4px 10px rgba(50, 50, 50, 0.1);
+  padding: 20px 15px;
+  transition: all 0.2s ease-in;
+  font-size: 18px;
+}
+button#continue:hover {
+  background-color: rgba(160, 160, 160, 0.062);
+}
+button#continue:active {
+  background-color: rgba(0, 0, 0, 0.349);
+}
